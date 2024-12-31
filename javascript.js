@@ -12,7 +12,7 @@ function playGame(){
  let computerScore = 0 ;
  let tie = 0 ; 
 
- for (i = 1; i <= 5; i++){ 
+ for (i = 1; i <= 1; i++){ 
    
     const playerSelection = prompt("Enter Rock, Paper, or Scissors").toLowerCase();
     const computerSelection = getComputerChoice(); 
@@ -57,3 +57,6 @@ function playGame(){
 };
 
  console.log(playGame()); 
+
+
+ 
